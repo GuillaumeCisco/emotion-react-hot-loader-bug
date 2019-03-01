@@ -1,0 +1,27 @@
+{
+    "private": true,
+    "name": "emotion-react-hot-loader-bug",
+    "author": "Guillaume Cisco <guillaumecisco@gmail.com>",
+    "version": "0.0.1",
+    "license": "MIT",
+    "description": "emotion-react-hot-loader-bug",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/GuillaumeCisco/emotion-react-hot-loader-bug"
+    },
+    "engines": {
+        "node": ">=8.4.0",
+        "npm": ">=5.3.0"
+    },
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "start": "cd packages/ssr && npm run start"
+    },
+    "pre-commit": [
+        "precommit-msg",
+        "test",
+        "eslint"
+    ]
+}
