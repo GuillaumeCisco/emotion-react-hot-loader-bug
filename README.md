@@ -14,6 +14,8 @@ Then run:<br/>
 For testing and developing on the projet with true hot module replacement, run  
 `yarn start`
 
+Go to `http://localhost:3000` in your favorite web browser
+
 Now explore `src/app` files.
 If you modify the console.log in `abstract.js` you will trigger an error.
 
